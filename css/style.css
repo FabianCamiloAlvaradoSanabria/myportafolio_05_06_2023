@@ -98,7 +98,7 @@ nav {
     font-size: 40px;
     margin: 0px;
     letter-spacing: 3px;
-    color: #292929;
+    color: #b41e1e;
 }
 
 .cv-btn {
@@ -118,32 +118,32 @@ nav {
 
 .black-line {
     align-self: end;
-    width: 50%;
+    width: 0%;
     height: 15%;
-    margin-bottom: 4em;
+    margin-bottom: auto;
     position: absolute;
-    bottom: 0px;
-    left: -3%;
+    bottom: 0%;
+    left: 50%;
     border-right: 1px solid rgba(41, 41, 41, 0.30);
 }
 
 .black-line::after {
     content: ' ';
     position: absolute;
-    width: 0;
-    height: 0;
+    width: 0px;
+    height: 0px;;
     border-style: solid;
     border-width: 11px 11px 0 11px;
     border-color: #292929 transparent transparent transparent;
     right: -.7em;
-    bottom: -2px;
+    bottom: -6px;
 }
 
 
 .social {
     position: absolute;
     left: 50px;
-    bottom: 50px;
+    bottom: 0%;
     display: flex;
 
 }
