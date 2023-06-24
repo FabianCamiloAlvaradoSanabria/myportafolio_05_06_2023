@@ -1,3 +1,6 @@
+<?php
+    $datos = json_decode(file_get_contents("data/data.json"));
+?>
 <!DOCTYPE html>
 <html lang="sp">
 
@@ -27,11 +30,11 @@
             <!--Menú-->
             <div class="toggle"></div>
             <ul class="menu">
-                <li class="active"><a href="#main">Inicio</a></li>
-                <li><a href="#about">Sobre mi</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#portfolio">Portafolio</a></li>
-                <li><a href="#contact-form">Contactame</a></li>
+                <li class="active"><a href="#main"><?php echo $datos->Enlaces[0]->Enlace1;?></a></li>
+                <li><a href="#about"><?php echo $datos->Enlaces[0]->Enlace2;?></a></li>
+                <li><a href="#services"><?php echo $datos->Enlaces[0]->Enlace3;?></a></li>
+                <li><a href="#portfolio"><?php echo $datos->Enlaces[0]->Enlace4;?></a></li>
+                <li><a href="#contact-form"><?php echo $datos->Enlaces[0]->Enlace5;?></a></li>
             </ul>
             <!--Lenguaje-->
             <a href="#" class="lang">Es</a>
@@ -50,7 +53,7 @@
         <div class="black-line">
             </div>
             <!--Social-->
-            <div>
+            <div class="redess">
                 <a href="#"><i class="fab fa-facebook"></i></a>
                 <a href="#"><i class="fab fa-twitter"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
@@ -67,11 +70,8 @@
         <!--text---------------------->
         <div class="about-text">
             <h1>Sobre mí</h1>
-            <h2>Ingeniero programador</h2>
-            <p>Disfrute del mejor editor de diseño web. Divi es como Photoshop o Sketch para la web. Aporta una interfaz
-                de diseño avanzado a WordPress de la que se enamorarán tanto los principiantes como los expertos. Es
-                increíblemente inteligente, súper flexible, increíblemente poderoso y visual por naturaleza. Así es como
-                se debe hacer el diseño para la web.</p>
+            <h2><?php echo $datos->Datos->inf_personal[0]->Carrera; ?></h2>
+            <p><?php echo $datos->Datos->inf_personal[0]->Descripcion; ?></p>
             <button>Ver mas detalles</button>
         </div>
         <!--acerca-model----------------->

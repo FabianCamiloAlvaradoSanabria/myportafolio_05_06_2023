@@ -1,0 +1,19 @@
+{
+    "Datos": {
+        "inf_personal": [
+            {
+                "Carrera": "Ingeniero Programador",
+                "Descripcion": "Disfrute del mejor editor de diseño web. Divi es como Photoshop o Sketch para la web. Aporta una interfaz de diseño avanzado a WordPress de la que se enamorarán tanto los principiantes como los expertos. Es increíblemente inteligente, súper flexible, increíblemente poderoso y visual por naturaleza. Así es como se debe hacer el diseño para la web."
+            }
+        ]
+    },
+    "Enlaces": [
+        {
+            "Enlace1": "Inicio",
+            "Enlace2": "Sobre mi",
+            "Enlace3": "Servicios",
+            "Enlace4": "Portafolio",
+            "Enlace5": "Contactame"
+        }
+    ]
+}
