@@ -76,7 +76,7 @@
         </div>
         <!--acerca-model----------------->
         <div class="about-model">
-            <img src="images/about-model.png" alt="model" />
+            <img src=<?php echo $datos->Imagenes[0]->Enlace1;?> alt="model" />
         </div>
 
 
@@ -97,7 +97,7 @@
                     <!--type----------->
                     <div class="s-type">Unreal Enguie</div>
                     <!--name------->
-                    <img src="images/s1.png">
+                    <img src=<?php echo $datos->Imagenes[0]->Enlace2;?>>
                 </div>
                 <!--text----------------->
                 <div class="s-b-text">
@@ -112,7 +112,7 @@
                     <!--type----------->
                     <div class="s-type">Web Desing</div>
                     <!--name------->
-                    <img src="images/s3.jpg">
+                    <img src=<?php echo $datos->Imagenes[0]->Enlace3;?>>
                 </div>
                 <!--text----------------->
                 <div class="s-b-text">
@@ -127,7 +127,7 @@
                     <!--type----------->
                     <div class="s-type">Blender</div>
                     <!--name------->
-                    <img src="images/s2.png">
+                    <img src=<?php echo $datos->Imagenes[0]->Enlace4;?>>
                 </div>
                 <!--text----------------->
                 <div class="s-b-text">
@@ -152,7 +152,7 @@
                     <p>Unreal Enguie</p>
                 </div>
                 <!--bg-img------------->
-                <img src="images/w1.jpg">
+                <img src=<?php echo $datos->Imagenes[0]->Enlace5;?>>
 
             </div>
             <!--portfolio-box-2-------->
@@ -163,7 +163,7 @@
                     <p>Unity</p>
                 </div>
                 <!--bg-img------------->
-                <img src="images/w2.jpg">
+                <img src=<?php echo $datos->Imagenes[0]->Enlace6;?>>
             </div>
             <!--portfolio-box-3-------->
             <div class="p-box">
@@ -173,7 +173,7 @@
                     <p>Unreal Enguie</p>
                 </div>
                 <!--bg-img------------->
-                <img src="images/w3.jpg">
+                <img src=<?php echo $datos->Imagenes[0]->Enlace7;?>>
             </div>
             <!--portfolio-box-4-------->
             <div class="p-box">
@@ -183,7 +183,7 @@
                     <p>Web Desing</p>
                 </div>
                 <!--bg-img------------->
-                <img src="images/w4.jpg">
+                <img src=<?php echo $datos->Imagenes[0]->Enlace8;?>>
             </div>
             <!--portfolio-box-5-------->
             <div class="p-box">
@@ -193,7 +193,7 @@
                     <p>Web Desing</p>
                 </div>
                 <!--bg-img------------->
-                <img src="images/w5.jpg">
+                <img src=<?php echo $datos->Imagenes[0]->Enlace9;?>>
             </div>
             <!--portfolio-box-6-------->
             <div class="p-box">
@@ -203,7 +203,7 @@
                     <p>Web Desing</p>
                 </div>
                 <!--bg-img------------->
-                <img src="images/w6.jpg">
+                <img src=<?php echo $datos->Imagenes[0]->Enlace10;?>>
             </div>
 
         </div>

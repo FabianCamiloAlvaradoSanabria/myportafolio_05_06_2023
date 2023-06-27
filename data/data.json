@@ -19,5 +19,19 @@
             "Enlace4": "Portafolio",
             "Enlace5": "Contactame"
         }
+    ],
+    "Imagenes": [
+        {
+            "Enlace1": "images/about-model.png",
+            "Enlace2": "images/s1.png",
+            "Enlace3": "images/s3.jpg",
+            "Enlace4": "images/s2.png",
+            "Enlace5": "images/w1.jpg",
+            "Enlace6": "images/w2.jpg",
+            "Enlace7": "images/w3.jpg",
+            "Enlace8": "images/w4.jpg",
+            "Enlace9": "images/w5.jpg",
+            "Enlace10": "images/w6.jpg"
+        }
     ]
 }
