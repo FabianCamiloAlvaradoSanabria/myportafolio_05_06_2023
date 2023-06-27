@@ -44,7 +44,7 @@
             <!--Hola-->
             <p>Hola</p>
             <!--Nombres-->
-            <h1>Soy <font color="#63d9ff"> Fabian</font> Alvarado</h1>
+            <h1><?php echo $datos->Datos->inf_personal[1]->Carrera[0];?> <font color="#63d9ff"> <?php echo $datos->Datos->inf_personal[1]->Carrera[1];?></font> <?php echo $datos->Datos->inf_personal[1]->Carrera[2];?></h1>
             <p class="details">Soy un estudiente que se encuentra en proceso de aprendizaje de nuevos lenguajes de
                 programación tales como PHP JS y CSS</p>
             <!--Cv boton-->
