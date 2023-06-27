@@ -6,7 +6,11 @@
                 "Descripcion": "Disfrute del mejor editor de diseño web. Divi es como Photoshop o Sketch para la web. Aporta una interfaz de diseño avanzado a WordPress de la que se enamorarán tanto los principiantes como los expertos. Es increíblemente inteligente, súper flexible, increíblemente poderoso y visual por naturaleza. Así es como se debe hacer el diseño para la web."
             },
             {
-                "Carrera": ["SOY", "FABIAN", "Alvarado"],
+                "Carrera": [
+                    "SOY",
+                    "FABIAN",
+                    "Alvarado"
+                ],
                 "Descripcion": "Soy un estudiente que se encuentra en proceso de aprendizaje de nuevos lenguajes de programación tales como PHP JS y CSS"
             }
         ]
@@ -32,6 +36,20 @@
             "Enlace8": "images/w4.jpg",
             "Enlace9": "images/w5.jpg",
             "Enlace10": "images/w6.jpg"
+        }
+    ],
+    "Servicios": [
+        {
+            "Servicio": "Unreal Enguie",
+            "Descripcion": "Se ofrece el servicio de modelado 3D y cinematicas como tambien el diseño de escenarios para cualquier tipo de ambiente."
+        },
+        {
+            "Servicio": "Web Desing",
+            "Descripcion": "Se ofrece diferentes diseños para paginas Web con Html, Css, JavaScript, ademas de ser paginas responsive."
+        },
+        {
+            "Servicio": "Blender",
+            "Descripcion": "Ofrezco el servicio de crear modelados 3D y Animación con Blender, ademas de la creación de Assents para motores de video juegos."
         }
     ]
 }

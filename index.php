@@ -45,8 +45,7 @@
             <p>Hola</p>
             <!--Nombres-->
             <h1><?php echo $datos->Datos->inf_personal[1]->Carrera[0];?> <font color="#63d9ff"> <?php echo $datos->Datos->inf_personal[1]->Carrera[1];?></font> <?php echo $datos->Datos->inf_personal[1]->Carrera[2];?></h1>
-            <p class="details">Soy un estudiente que se encuentra en proceso de aprendizaje de nuevos lenguajes de
-                programación tales como PHP JS y CSS</p>
+            <p class="details"><?php echo $datos->Datos->inf_personal[1]->Descripcion;?></p>
             <!--Cv boton-->
             <a href="#" class="cv-btn">Mi Hoja de vida</a>
             <!--Flecha hacia abajo-->
@@ -95,14 +94,13 @@
                 <!--img------------->
                 <div class="s-b-img">
                     <!--type----------->
-                    <div class="s-type">Unreal Enguie</div>
+                    <div class="s-type"><?php echo $datos->Servicios[0]->Servicio;?></div>
                     <!--name------->
                     <img src=<?php echo $datos->Imagenes[0]->Enlace2;?>>
                 </div>
                 <!--text----------------->
                 <div class="s-b-text">
-                    <a href="#">Se ofrece el servicio de modelado 3D y cinematicas como tambien el diseño de escenarios
-                        para cualquier tipo de ambiente.</a>
+                    <a href="#"><?php echo $datos->Servicios[0]->Descripcion;?></a>
                 </div>
             </div>
             <!--box-2---------------->
@@ -110,14 +108,13 @@
                 <!--img------------->
                 <div class="s-b-img">
                     <!--type----------->
-                    <div class="s-type">Web Desing</div>
+                    <div class="s-type"><?php echo $datos->Servicios[1]->Servicio;?></div>
                     <!--name------->
                     <img src=<?php echo $datos->Imagenes[0]->Enlace3;?>>
                 </div>
                 <!--text----------------->
                 <div class="s-b-text">
-                    <a href="#">Se ofrece diferentes diseños para paginas Web con Html, Css, JavaScript, ademas de ser
-                        paginas responsive.</a>
+                    <a href="#"><?php echo $datos->Servicios[1]->Descripcion;?></a>
                 </div>
             </div>
             <!--box-3---------------->
@@ -125,15 +122,14 @@
                 <!--img------------->
                 <div class="s-b-img">
                     <!--type----------->
-                    <div class="s-type">Blender</div>
+                    <div class="s-type"><?php echo $datos->Servicios[2]->Servicio;?></div>
                     <!--name------->
                     <img src=<?php echo $datos->Imagenes[0]->Enlace4;?>>
                 </div>
                 <!--text----------------->
                 <div class="s-b-text">
 
-                    <a href="#">Ofrezco el servicio de crear modelados 3D y Animación con Blender, ademas de la creación
-                        de Assents para motores de video juegos</a>
+                    <a href="#"><?php echo $datos->Servicios[2]->Descripcion;?></a>
                 </div>
             </div>
         </div>
